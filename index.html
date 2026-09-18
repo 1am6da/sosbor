@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  </head>
+<body class="bg-light">
+
+    <!-- Навигация -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-success sticky-top shadow-sm">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#"><i class="bi bi-tree-fill me-2"></i>ЭкоШтаб</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto fw-medium">
+                    <li class="nav-item"><a class="nav-link" href="#problem">Суть проблемы</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#media">СМИ о нас</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#action">Как помочь</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#team">Контакты</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Главный баннер (Hero) -->
+    <header class="bg-white py-5 border-bottom">
+        <div class="container py-4 text-center text-lg-start">
+            <div class="row align-items-center g-5">
+                <div class="col-lg-7">
+                    <span class="badge bg-danger mb-3 px-3 py-2 text-uppercase tracking-wider">Что будет с Сосновым Бором?!</span>
+                    <h1 class="display-4 fw-bold text-dark mb-3">Спасем наш лес от вырубки</h1>
+                    <p class="lead text-secondary mb-4">Мы — инициативная группа жителей. Объединяемся, чтобы остановить незаконное уничтожение зеленой зоны. Нам нужна ваша помощь.</p>
+                    <a href="#action" class="btn btn-success btn-lg px-4 me-md-2 fw-bold shadow-sm">Действовать сейчас</a>
+                </div>
+                <div class="col-lg-5">
+                    <!-- Адаптивное видео (Сюжет СМИ или обращение) -->
+                    <div class="ratio ratio-16x9 shadow rounded overflow-hidden">
+                        <!-- Замените кодовую часть ссылки на ваше видео с YouTube -->
+                        <!--<iframe src="https://www.youtube.com/embed/bGikzm1d4WY?si=-cP9tEsnOuXRU92x" title="YouTube video" allowfullscreen></iframe>-->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Суть проблемы -->
+    <section id="problem" class="py-5">
+        <div class="container">
+            <h2 class="text-center fw-bold mb-5">В чем суть проблемы?</h2>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow-sm p-3">
+                        <div class="card-body">
+                            <div class="text-success fs-1 mb-3"><i class="bi bi-exclamation-triangle"></i></div>
+                            <h4 class="card-title fw-bold">Что происходит</h4>
+                            <p class="card-text text-secondary">Прямо сейчас в Сосновом Бору застройщик ООО Элтекс вырубает здоровые деревья и роет тяжелой техникой котлован под огромный спорткомплекс и 12-этажный корпус для собственных нужд</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow-sm p-3">
+                        <div class="card-body">
+                            <div class="text-success fs-1 mb-3"><i class="bi bi-shield-slash"></i></div>
+                            <h4 class="card-title fw-bold">Нарушения</h4>
+                            <p class="card-text text-secondary">Территория Соснового Бора является зоной городского леса, любые строительные работы на ней запрещены. Власти экстренно пытаются лишить Сосновый Бор статуса городского леса</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow-sm p-3">
+                        <div class="card-body">
+                            <div class="text-success fs-1 mb-3"><i class="bi bi-people"></i></div>
+                            <h4 class="card-title fw-bold">Инициативная группа</h4>
+                            <p class="card-text text-secondary">Мы — обычные люди, местные жители, действующие на добровольных началах, выступаем против уничтожения зеленой зоны.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Ссылки на СМИ -->
+    <section id="media" class="bg-white py-5 border-top border-bottom">
+        <div class="container">
+            <h2 class="text-center fw-bold mb-4">СМИ и публикации о нас</h2>
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="list-group list-group-flush shadow-sm rounded">
+                        <a href="https://sibkray.ru/1/256296" target="_blank" class="list-group-item list-group-item-action p-3 d-flex justify-content-between align-items-center">
+                            <div>
+                                <h6 class="mb-1 fw-bold text-success">Сибкрай</h6>
+                                <p class="mb-0 text-muted small">Сосновый бор в Новосибирске на грани изменений: застройка или сохранение природы?</p>
+                            </div>
+                            <span class="badge bg-light text-dark border"><i class="bi bi-box-arrow-up-right"></i></span>
+                        </a>
+                        <a href="https://infopro54.ru/news/zhiteli-novosibirska-vystupayut-protiv-zastrojki-parka-sosnovyj-bor/" target="_blank" class="list-group-item list-group-item-action p-3 d-flex justify-content-between align-items-center">
+                            <div>
+                                <h6 class="mb-1 fw-bold text-success">Инфопро54</h6>
+                                <p class="mb-0 text-muted small">Жители Новосибирска выступают против застройки парка «Сосновый бор»</p>
+                            </div>
+                            <span class="badge bg-light text-dark border"><i class="bi bi-box-arrow-up-right"></i></span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Инструкции и документы для скачивания -->
+    <section id="action" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center fw-bold mb-2">Как вы можете помочь?</h2>
+            <p class="text-center text-muted mb-5">Каждое действие имеет значение. Пожалуйста, следуйте инструкции:</p>
+            
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <!-- Шаг 1 -->
+                    <div class="d-flex mb-4">
+                        <div class="flex-shrink-0"><span class="badge bg-success rounded-circle p-3 fs-5">1</span></div>
+                        <div class="ms-3 pt-2">
+                            <h5 class="fw-bold">Отправьте обращения </h5>
+                            <p class="text-secondary">Мы подготовили официальные тексты обращений в органы государственной власти</p>
+                            <p class="text-secondary">Зайдите на официальный сайт ведомства и вставьте скачанный текст. Это займет всего 5 минут.</p>
+                            <!-- Файлы кладем в ту же папку репозитория, например в папку docs/ -->
+                            <a href="docs/blank-jaloba.docx" download class="btn btn-outline-success btn-sm fw-bold"><i class="bi bi-file-earmark-word me-1"></i> Прокуратура</a>
+                            <a href="docs/blank-jaloba.docx" download class="btn btn-outline-success btn-sm fw-bold"><i class="bi bi-file-earmark-word me-1"></i> Мэрия</a>
+                            <a href="docs/blank-jaloba.docx" download class="btn btn-outline-success btn-sm fw-bold"><i class="bi bi-file-earmark-word me-1"></i> Горсовет</a>
+                            <!--<a href="https://t.me" target="_blank" class="btn btn-primary btn-sm fw-bold"><i class="bi bi-telegram me-1"></i> Прокуратура</a>
+                            <a href="https://t.me" target="_blank" class="btn btn-primary btn-sm fw-bold"><i class="bi bi-telegram me-1"></i> Мэрия</a>
+                            <a href="https://t.me" target="_blank" class="btn btn-primary btn-sm fw-bold"><i class="bi bi-telegram me-1"></i> Горсовет</a>-->
+                        </div>
+                    </div>
+                    <!-- Шаг 2 -->
+                    <div class="d-flex mb-4">
+                        <div class="flex-shrink-0"><span class="badge bg-success rounded-circle p-3 fs-5">2</span></div>
+                        <div class="ms-3 pt-2">
+                            <h5 class="fw-bold">Поставьте свою подпись под коллективными обращениями</h5>
+                            <p class="text-secondary">Расписание встреч, время и место сбора подписей:</p>
+                            <a href="docs/blank-jaloba.docx" download class="btn btn-outline-success btn-sm fw-bold"><i class="bi bi-file-earmark-word me-1"></i>Оставить подпись</a>
+                            <!--<a href="https://genproc.gov.ru" target="_blank" class="btn btn-sm btn-link text-success p-0 fw-bold">Пункты сбора подписей<i class="bi bi-arrow-right"></i></a>-->
+                        </div>
+                    </div>
+                    <div class="d-flex mb-4">
+                        <div class="flex-shrink-0"><span class="badge bg-success rounded-circle p-3 fs-5">3</span></div>
+                        <div class="ms-3 pt-2">
+                            <h5 class="fw-bold">Депутатам Горсовета</h5>
+                            <p class="text-secondary">Зайдите на официальный сайт ведомства и вставьте скачанный текст. Это займет всего 5 минут.</p>
+                            <a href="https://genproc.gov.ru" target="_blank" class="btn btn-sm btn-link text-success p-0 fw-bold">Горсовет Новосибирска <i class="bi bi-arrow-right"></i></a>
+                        </div>
+                    </div>
+                    <!-- Шаг 3 -->
+                    <div class="d-flex">
+                        <div class="flex-shrink-0"><span class="badge bg-success rounded-circle p-3 fs-5">4</span></div>
+                        <div class="ms-3 pt-2">
+                            <h5 class="fw-bold">Распространяйте информацию</h5>
+                            <p class="text-secondary">Делитесь ссылками в своих соцсетях и общих чатах</p>
+                            <!--<a href="https://t.me" target="_blank" class="btn btn-primary btn-sm fw-bold"><i class="bi bi-telegram me-1"></i> Чат в Мах</a>
+                            <a href="https://t.me" target="_blank" class="btn btn-primary btn-sm fw-bold"><i class="bi bi-telegram me-1"></i> Телеграмм</a>
+                            <a href="https://t.me" target="_blank" class="btn btn-primary btn-sm fw-bold"><i class="bi bi-telegram me-1"></i> Группа Вконтакте</a>
+                            <a href="https://t.me" target="_blank" class="btn btn-primary btn-sm fw-bold"><i class="bi bi-telegram me-1"></i> Нельзяграмм</a>-->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="social-qr" class="py-5 bg-white border-top">
+    <div class="container">
+        <div class="text-center mb-5">
+            <h2 class="fw-bold">Присоединяйтесь к нам в соцсетях</h2>
+            <p class="text-muted">Сканируйте QR-код смартфоном или просто нажмите на кнопку для быстрого перехода</p>
+        </div>
+
+        <div class="row g-4 justify-content-center">
+            
+            <!-- Telegram -->
+            <div class="col-sm-6 col-md-6 col-lg-3">
+                <div class="card h-100 border-0 shadow-sm text-center p-3 bg-light">
+                    <div class="p-3 bg-white rounded shadow-sm mb-3 mx-auto" style="max-width: 180px;">
+                        <!-- Путь к QR-коду Telegram -->
+                        <img src="img/qr-telegram.png" alt="QR Telegram" class="img-fluid rounded">
+                    </div>
+                    <div class="card-body p-0 d-flex flex-column justify-content-between">
+                        <div>
+                            <h5 class="fw-bold text-dark mb-1"><i class="bi bi-telegram text-primary me-2"></i>Telegram</h5>
+                            <p class="text-muted small px-1">t.me/sosnovyjbornsk</p>
+                        </div>
+                        <a href="https://t.me" target="_blank" class="btn btn-outline-primary btn-sm w-100 fw-bold mt-2">
+                            Открыть канал
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ВКонтакте -->
+            <div class="col-sm-6 col-md-6 col-lg-3">
+                <div class="card h-100 border-0 shadow-sm text-center p-3 bg-light">
+                    <div class="p-3 bg-white rounded shadow-sm mb-3 mx-auto" style="max-width: 180px;">
+                        <!-- Путь к QR-коду ВКонтакте -->
+                        <img src="img/qr-vk.png" alt="QR ВКонтакте" class="img-fluid rounded">
+                    </div>
+                    <div class="card-body p-0 d-flex flex-column justify-content-between">
+                        <div>
+                            <h5 class="fw-bold text-dark mb-1"><i class="bi bi-browser-chrome text-info me-2"></i>ВКонтакте</h5>
+                            <p class="text-muted small px-1">https://vk.ru/club241187347</p>
+                        </div>
+                        <a href="https://vk.com" target="_blank" class="btn btn-outline-info text-dark btn-sm w-100 fw-bold mt-2">
+                            Перейти в группу
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- X (Маск) -->
+            <div class="col-sm-6 col-md-6 col-lg-3">
+                <div class="card h-100 border-0 shadow-sm text-center p-3 bg-light">
+                    <div class="p-3 bg-white rounded shadow-sm mb-3 mx-auto" style="max-width: 180px;">
+                        <!-- Путь к QR-коду X -->
+                        <img src="img/qr-x.png" alt="QR X (Twitter)" class="img-fluid rounded">
+                    </div>
+                    <div class="card-body p-0 d-flex flex-column justify-content-between">
+                        <div>
+                            <h5 class="fw-bold text-dark mb-1"><i class="bi bi-x-lg text-dark me-2"></i>МАКС</h5>
+                            <p class="text-muted small px-1">max.ru/channel_sosnovbornsk</p>
+                        </div>
+                        <a href="https://x.com" target="_blank" class="btn btn-outline-dark btn-sm w-100 fw-bold mt-2">
+                            Открыть канал
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Instagram -->
+            <div class="col-sm-6 col-md-6 col-lg-3">
+                <div class="card h-100 border-0 shadow-sm text-center p-3 bg-light">
+                    <div class="p-3 bg-white rounded shadow-sm mb-3 mx-auto" style="max-width: 180px;">
+                        <!-- Путь к QR-коду Instagram -->
+                        <img src="img/qr-instagram.png" alt="QR Instagram" class="img-fluid rounded">
+                    </div>
+                    <div class="card-body p-0 d-flex flex-column justify-content-between">
+                        <div>
+                            <h5 class="fw-bold text-dark mb-1"><i class="bi bi-instagram text-danger me-2"></i>Нельзяграмм</h5>
+                            <p class="text-muted small px-1">@sosnovyjbornsk</p>
+                            <p class="text-muted small px-1">*Meta - запрещена в РФ</p>
+                        </div>
+                        <a href="https://instagram.com" target="_blank" class="btn btn-outline-danger btn-sm w-100 fw-bold mt-2">
+                            Смотреть профиль
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+    <!-- Контакты и подвал -->
+    <footer id="team" class="bg-dark text-white py-5">
+        <div class="container text-center">
+            
+            <hr class="bg-secondary my-4">
+            <p class="mb-0 text-muted small">&copy; 2026 Инициативная группа жителей. Сайт создан для защиты окружающей среды.</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap 5 JS Bundle -->
+Use code with caution.
