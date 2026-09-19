@@ -1,0 +1,35 @@
+/* Custom buttons for brands colors */
+
+/* Telegram */
+.btn-brand-tg {
+    color: #24A1DE; border-color: #24A1DE;
+}
+.btn-brand-tg:hover {
+    background-color: #24A1DE; color: #fff; border-color: #24A1DE;
+}
+/*  Vkontakte */
+.btn-brand-vk {
+    color: #0077FF; border-color: #0077FF;
+}
+.btn-brand-vk:hover {
+    background-color: #0077FF; color: #fff; border-color: #0077FF;
+}
+
+/* MAX messenger */
+.btn-brand-max {
+    color: #471AFF;  border-color: #471AFF;
+}
+.btn-brand-max:hover {
+    
+    background: linear-gradient(135deg, #471AFF 0%, #6E1AFF 40%, #9500FF 70%, #00BFFF 100%);
+    color: #fff; border-color: transparent;
+}
+
+/* Gradient for instagram */
+.btn-brand-ig {
+    color: #E1306C; border-color: #E1306C;
+}
+.btn-brand-ig:hover {
+    background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+    color: #fff; border-color: transparent;
+}
